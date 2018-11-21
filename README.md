@@ -44,7 +44,7 @@ $ node -r @babel/register -r dotenv/config index.js
 ^C
 
 
-When there is an issue, I got the following response (timestamp: 2018-11-21T08:36 or a few minute later):
+When there is an issue, I got the following response (timestamp is **around** 2018-11-21T08:39:11.966Z):
 
 ```
 ➜  bot_creation_delay yarn dev
