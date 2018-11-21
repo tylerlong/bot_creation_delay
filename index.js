@@ -31,7 +31,6 @@ app.get('/bot/oauth', async (req, res) => {
     const r = await rc.get('/restapi/v1.0/account/~/extension/~')
     console.log(r.data)
   }
-
   res.send('')
 })
 
