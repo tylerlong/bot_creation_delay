@@ -46,7 +46,7 @@ $ node -r @babel/register -r dotenv/config index.js
 
 When there is an issue, I got the following response (timestamp is **around** 2018-11-21T08:39:11.966Z):
 
-```
+<pre>
 ➜  bot_creation_delay yarn dev
 yarn run v1.9.2
 warning package.json: No license field
@@ -259,4 +259,4 @@ $ node -r @babel/register -r dotenv/config index.js
     at process._tickCallback (internal/process/next_tick.js:68:7)
 (node:34411) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
 (node:34411) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-```
+</pre>
